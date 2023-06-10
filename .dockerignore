@@ -1,0 +1,23 @@
+# Ignore the vendor directory
+vendor/
+
+# Ignore composer files
+composer.lock
+composer.phar
+composer.json
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Laravel storage files
+storage/*.key
+storage/logs/
+storage/app/
+storage/framework/
+storage/cache/
+storage/*.sql
+
+# Ignore testing artifacts
+tests/
+phpunit.xml
+phpunit.xml.dist
